@@ -53,16 +53,9 @@ function printAllStudents(students: Student[]) {
 printAllStudents(listOfStudents)
 
 
-
-
-
-
-
-
-
-
-
-
+// ------------------------
+// Session content
+// ------------------------
 
 const student3: StudentType = {
     id: '1',
