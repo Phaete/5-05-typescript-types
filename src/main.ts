@@ -10,7 +10,7 @@ type Student = {
 
 function printStudent(student : Student) {
     console.log(student.firstName + " " + student.lastName + " (" + student.age + ")")
-    console.log("==============================")
+    console.log("=".repeat(student.firstName.length+student.lastName.length+4+String(student.age).length))
     console.log(student.grades.map(grade => grade === undefined ? "*" : grade.toString()))
 }
 
